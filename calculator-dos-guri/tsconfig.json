@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@calculator-dos-guri/sum": ["libs/sum/src/index.ts"],
+      "@calculator-dos-guri/multiply": ["libs/multiply/src/index.ts"],
+      "@calculator-dos-guri/subtract": ["libs/subtract/src/index.ts"],
+      "@calculator-dos-guri/divide": ["libs/divide/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

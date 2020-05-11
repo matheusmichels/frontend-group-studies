@@ -1,0 +1,38 @@
+{
+  "npmScope": "calculator-dos-guri",
+  "implicitDependencies": {
+    "workspace.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "lint", "test", "e2e"]
+      }
+    }
+  },
+  "projects": {
+    "calculator": {
+      "tags": []
+    },
+    "sum": {
+      "tags": []
+    },
+    "multiply": {
+      "tags": []
+    },
+    "subtract": {
+      "tags": []
+    },
+    "divide": {
+      "tags": []
+    }
+  }
+}
